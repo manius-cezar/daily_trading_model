@@ -1,5 +1,5 @@
 # Overview
-This is the proposition of the NN models solving the problem of finding the best moment in day for making a sell operation during stock speculations. Attached repository is practical part of master thesis, entitled "An intelligent algorithm that supports the sale of financial instruments, based on artificial neural networks approach" done by Piotr Mania, student of  Polish-Japanese Academy of Information Technology, which was prepared under thesis supervisor **Ph.D. Michał R. Przybyłek** and **MSc Illia Shkroba**.
+This is the proposition of the NN models solving the problem of finding the best moment in day for making a sell operation during stock speculations. Attached repository is practical part of master thesis, entitled "An intelligent algorithm that supports the sale of financial instruments, based on artificial neural networks" done by Piotr Mania, student of  Polish-Japanese Academy of Information Technology, which was prepared under thesis supervisor **Ph.D. Michał R. Przybyłek** and **MSc Illia Shkroba**.
 
 # Target
 Solving the problem of finding the best possible moment in time, during stock session, for most profitable selling opportunity, with the use of neural networks.
