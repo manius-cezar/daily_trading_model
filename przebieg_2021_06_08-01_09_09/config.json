@@ -1,0 +1,1 @@
+{"cnn_input_shape": [250, 1], "kernel_initializer": "he_normal", "statistical_input_shape": [26, 1], "statistical_dense1_neurons_qty": 26, "batch_size": 8000, "n": 80, "m": 40, "lr_in": 0.001, "lr_max": 0.03, "lr_min": 1e-05, "momentum_min": 0.8, "momentum_max": 0.95}

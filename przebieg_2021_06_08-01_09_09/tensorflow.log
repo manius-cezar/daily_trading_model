@@ -1,0 +1,221 @@
+2021-06-08 01:09:16,129 - tensorflow - INFO - Using 1cycle Learning Rate Scheduler
+2021-06-08 01:09:18,647 - tensorflow - INFO - Using 1cycle Momentum
+2021-06-08 01:09:29,971 - tensorflow - INFO - 
+
+Building model:
+
+2021-06-08 01:09:29,974 - tensorflow - WARNING - NCCL is not supported when using virtual GPUs, fallingback to reduction to one device
+2021-06-08 01:09:29,975 - tensorflow - INFO - Using MirroredStrategy with devices ('/job:localhost/replica:0/task:0/device:GPU:0', '/job:localhost/replica:0/task:0/device:GPU:1', '/job:localhost/replica:0/task:0/device:GPU:2', '/job:localhost/replica:0/task:0/device:GPU:3', '/job:localhost/replica:0/task:0/device:GPU:4')
+2021-06-08 01:09:42,985 - tensorflow - INFO - 
+
+Model fitting:
+
+
+2021-06-08 01:09:45,656 - tensorflow - INFO - New lr = 0.0010000000000000015, epoch = 1
+2021-06-08 01:11:20,704 - tensorflow - INFO - New lr = 0.0013670886075949381, epoch = 2
+2021-06-08 01:12:11,681 - tensorflow - INFO - New lr = 0.001734177215189875, epoch = 3
+2021-06-08 01:13:02,879 - tensorflow - INFO - New lr = 0.0021012658227848114, epoch = 4
+2021-06-08 01:13:53,979 - tensorflow - INFO - New lr = 0.002468354430379748, epoch = 5
+2021-06-08 01:14:44,843 - tensorflow - INFO - New lr = 0.002835443037974685, epoch = 6
+2021-06-08 01:15:35,943 - tensorflow - INFO - New lr = 0.0032025316455696214, epoch = 7
+2021-06-08 01:16:27,139 - tensorflow - INFO - New lr = 0.0035696202531645582, epoch = 8
+2021-06-08 01:17:18,373 - tensorflow - INFO - New lr = 0.0039367088607594955, epoch = 9
+2021-06-08 01:18:09,503 - tensorflow - INFO - New lr = 0.0043037974683544315, epoch = 10
+2021-06-08 01:19:00,676 - tensorflow - INFO - New lr = 0.004670886075949368, epoch = 11
+2021-06-08 01:19:51,852 - tensorflow - INFO - New lr = 0.005037974683544305, epoch = 12
+2021-06-08 01:20:42,964 - tensorflow - INFO - New lr = 0.005405063291139242, epoch = 13
+2021-06-08 01:21:34,153 - tensorflow - INFO - New lr = 0.005772151898734178, epoch = 14
+2021-06-08 01:22:25,052 - tensorflow - INFO - New lr = 0.006139240506329115, epoch = 15
+2021-06-08 01:23:16,148 - tensorflow - INFO - New lr = 0.0065063291139240515, epoch = 16
+2021-06-08 01:24:07,146 - tensorflow - INFO - New lr = 0.006873417721518988, epoch = 17
+2021-06-08 01:24:58,027 - tensorflow - INFO - New lr = 0.007240506329113925, epoch = 18
+2021-06-08 01:25:49,719 - tensorflow - INFO - New lr = 0.007607594936708861, epoch = 19
+2021-06-08 01:26:40,779 - tensorflow - INFO - New lr = 0.007974683544303798, epoch = 20
+2021-06-08 01:27:31,709 - tensorflow - INFO - New lr = 0.008341772151898734, epoch = 21
+2021-06-08 01:28:22,634 - tensorflow - INFO - New lr = 0.008708860759493672, epoch = 22
+2021-06-08 01:29:13,703 - tensorflow - INFO - New lr = 0.009075949367088608, epoch = 23
+2021-06-08 01:30:04,702 - tensorflow - INFO - New lr = 0.009443037974683545, epoch = 24
+2021-06-08 01:30:55,686 - tensorflow - INFO - New lr = 0.009810126582278481, epoch = 25
+2021-06-08 01:31:46,737 - tensorflow - INFO - New lr = 0.010177215189873419, epoch = 26
+2021-06-08 01:32:37,722 - tensorflow - INFO - New lr = 0.010544303797468355, epoch = 27
+2021-06-08 01:33:28,766 - tensorflow - INFO - New lr = 0.01091139240506329, epoch = 28
+2021-06-08 01:34:19,841 - tensorflow - INFO - New lr = 0.011278481012658229, epoch = 29
+2021-06-08 01:35:11,038 - tensorflow - INFO - New lr = 0.011645569620253165, epoch = 30
+2021-06-08 01:36:02,068 - tensorflow - INFO - New lr = 0.012012658227848102, epoch = 31
+2021-06-08 01:36:53,298 - tensorflow - INFO - New lr = 0.012379746835443038, epoch = 32
+2021-06-08 01:37:44,453 - tensorflow - INFO - New lr = 0.012746835443037974, epoch = 33
+2021-06-08 01:38:35,574 - tensorflow - INFO - New lr = 0.013113924050632912, epoch = 34
+2021-06-08 01:39:26,823 - tensorflow - INFO - New lr = 0.013481012658227848, epoch = 35
+2021-06-08 01:40:17,960 - tensorflow - INFO - New lr = 0.013848101265822785, epoch = 36
+2021-06-08 01:41:09,042 - tensorflow - INFO - New lr = 0.014215189873417721, epoch = 37
+2021-06-08 01:42:00,146 - tensorflow - INFO - New lr = 0.014582278481012657, epoch = 38
+2021-06-08 01:42:51,280 - tensorflow - INFO - New lr = 0.014949367088607595, epoch = 39
+2021-06-08 01:43:42,676 - tensorflow - INFO - New lr = 0.015316455696202531, epoch = 40
+2021-06-08 01:44:33,667 - tensorflow - INFO - New lr = 0.015683544303797467, epoch = 41
+2021-06-08 01:45:24,819 - tensorflow - INFO - New lr = 0.016050632911392405, epoch = 42
+2021-06-08 01:46:15,795 - tensorflow - INFO - New lr = 0.016417721518987342, epoch = 43
+2021-06-08 01:47:06,785 - tensorflow - INFO - New lr = 0.016784810126582277, epoch = 44
+2021-06-08 01:47:57,797 - tensorflow - INFO - New lr = 0.017151898734177218, epoch = 45
+2021-06-08 01:48:48,925 - tensorflow - INFO - New lr = 0.017518987341772152, epoch = 46
+2021-06-08 01:49:40,011 - tensorflow - INFO - New lr = 0.017886075949367086, epoch = 47
+2021-06-08 01:50:31,082 - tensorflow - INFO - New lr = 0.018253164556962027, epoch = 48
+2021-06-08 01:51:22,254 - tensorflow - INFO - New lr = 0.01862025316455696, epoch = 49
+2021-06-08 01:52:13,380 - tensorflow - INFO - New lr = 0.018987341772151896, epoch = 50
+2021-06-08 01:53:04,490 - tensorflow - INFO - New lr = 0.019354430379746837, epoch = 51
+2021-06-08 01:53:55,702 - tensorflow - INFO - New lr = 0.01972151898734177, epoch = 52
+2021-06-08 01:54:46,940 - tensorflow - INFO - New lr = 0.020088607594936705, epoch = 53
+2021-06-08 01:55:38,193 - tensorflow - INFO - New lr = 0.020455696202531647, epoch = 54
+2021-06-08 01:56:29,290 - tensorflow - INFO - New lr = 0.02082278481012658, epoch = 55
+2021-06-08 01:57:20,631 - tensorflow - INFO - New lr = 0.021189873417721515, epoch = 56
+2021-06-08 01:58:11,802 - tensorflow - INFO - New lr = 0.021556962025316456, epoch = 57
+2021-06-08 01:59:02,917 - tensorflow - INFO - New lr = 0.02192405063291139, epoch = 58
+2021-06-08 01:59:53,950 - tensorflow - INFO - New lr = 0.022291139240506325, epoch = 59
+2021-06-08 02:00:44,957 - tensorflow - INFO - New lr = 0.022658227848101266, epoch = 60
+2021-06-08 02:01:35,943 - tensorflow - INFO - New lr = 0.0230253164556962, epoch = 61
+2021-06-08 02:02:27,090 - tensorflow - INFO - New lr = 0.02339240506329114, epoch = 62
+2021-06-08 02:03:18,110 - tensorflow - INFO - New lr = 0.023759493670886075, epoch = 63
+2021-06-08 02:04:09,316 - tensorflow - INFO - New lr = 0.02412658227848101, epoch = 64
+2021-06-08 02:05:00,266 - tensorflow - INFO - New lr = 0.02449367088607595, epoch = 65
+2021-06-08 02:05:51,187 - tensorflow - INFO - New lr = 0.024860759493670885, epoch = 66
+2021-06-08 02:06:42,281 - tensorflow - INFO - New lr = 0.02522784810126582, epoch = 67
+2021-06-08 02:07:33,278 - tensorflow - INFO - New lr = 0.02559493670886076, epoch = 68
+2021-06-08 02:08:24,271 - tensorflow - INFO - New lr = 0.025962025316455695, epoch = 69
+2021-06-08 02:09:15,406 - tensorflow - INFO - New lr = 0.02632911392405063, epoch = 70
+2021-06-08 02:10:06,319 - tensorflow - INFO - New lr = 0.02669620253164557, epoch = 71
+2021-06-08 02:10:57,401 - tensorflow - INFO - New lr = 0.027063291139240504, epoch = 72
+2021-06-08 02:11:48,296 - tensorflow - INFO - New lr = 0.02743037974683544, epoch = 73
+2021-06-08 02:12:39,193 - tensorflow - INFO - New lr = 0.02779746835443038, epoch = 74
+2021-06-08 02:13:30,157 - tensorflow - INFO - New lr = 0.028164556962025314, epoch = 75
+2021-06-08 02:14:21,168 - tensorflow - INFO - New lr = 0.028531645569620248, epoch = 76
+2021-06-08 02:15:12,155 - tensorflow - INFO - New lr = 0.02889873417721519, epoch = 77
+2021-06-08 02:16:03,060 - tensorflow - INFO - New lr = 0.029265822784810124, epoch = 78
+2021-06-08 02:16:54,056 - tensorflow - INFO - New lr = 0.029632911392405065, epoch = 79
+2021-06-08 02:17:44,897 - tensorflow - INFO - New lr = 0.03, epoch = 80
+2021-06-08 02:18:35,817 - tensorflow - INFO - New lr = 0.029637499999999994, epoch = 81
+2021-06-08 02:19:26,828 - tensorflow - INFO - New lr = 0.029274999999999995, epoch = 82
+2021-06-08 02:20:17,846 - tensorflow - INFO - New lr = 0.028912499999999994, epoch = 83
+2021-06-08 02:21:08,633 - tensorflow - INFO - New lr = 0.028549999999999996, epoch = 84
+2021-06-08 02:21:59,599 - tensorflow - INFO - New lr = 0.028187499999999994, epoch = 85
+2021-06-08 02:22:50,586 - tensorflow - INFO - New lr = 0.027824999999999996, epoch = 86
+2021-06-08 02:23:41,591 - tensorflow - INFO - New lr = 0.027462499999999994, epoch = 87
+2021-06-08 02:24:32,726 - tensorflow - INFO - New lr = 0.027099999999999992, epoch = 88
+2021-06-08 02:25:23,704 - tensorflow - INFO - New lr = 0.026737499999999997, epoch = 89
+2021-06-08 02:26:14,688 - tensorflow - INFO - New lr = 0.026374999999999996, epoch = 90
+2021-06-08 02:27:05,638 - tensorflow - INFO - New lr = 0.026012499999999994, epoch = 91
+2021-06-08 02:27:56,745 - tensorflow - INFO - New lr = 0.025649999999999992, epoch = 92
+2021-06-08 02:28:47,723 - tensorflow - INFO - New lr = 0.025287499999999997, epoch = 93
+2021-06-08 02:29:38,798 - tensorflow - INFO - New lr = 0.024924999999999996, epoch = 94
+2021-06-08 02:30:29,751 - tensorflow - INFO - New lr = 0.024562499999999994, epoch = 95
+2021-06-08 02:31:20,659 - tensorflow - INFO - New lr = 0.0242, epoch = 96
+2021-06-08 02:32:11,342 - tensorflow - INFO - New lr = 0.023837499999999998, epoch = 97
+2021-06-08 02:33:02,264 - tensorflow - INFO - New lr = 0.023474999999999996, epoch = 98
+2021-06-08 02:33:53,105 - tensorflow - INFO - New lr = 0.023112499999999994, epoch = 99
+2021-06-08 02:34:44,014 - tensorflow - INFO - New lr = 0.02275, epoch = 100
+2021-06-08 02:35:34,972 - tensorflow - INFO - New lr = 0.022387499999999998, epoch = 101
+2021-06-08 02:36:25,917 - tensorflow - INFO - New lr = 0.022024999999999996, epoch = 102
+2021-06-08 02:37:16,949 - tensorflow - INFO - New lr = 0.021662499999999994, epoch = 103
+2021-06-08 02:38:07,880 - tensorflow - INFO - New lr = 0.0213, epoch = 104
+2021-06-08 02:38:58,868 - tensorflow - INFO - New lr = 0.020937499999999998, epoch = 105
+2021-06-08 02:39:49,572 - tensorflow - INFO - New lr = 0.020574999999999996, epoch = 106
+2021-06-08 02:40:40,421 - tensorflow - INFO - New lr = 0.020212499999999994, epoch = 107
+2021-06-08 02:41:31,201 - tensorflow - INFO - New lr = 0.01985, epoch = 108
+2021-06-08 02:42:22,075 - tensorflow - INFO - New lr = 0.019487499999999998, epoch = 109
+2021-06-08 02:43:12,938 - tensorflow - INFO - New lr = 0.019124999999999996, epoch = 110
+2021-06-08 02:44:03,766 - tensorflow - INFO - New lr = 0.018762499999999994, epoch = 111
+2021-06-08 02:44:54,626 - tensorflow - INFO - New lr = 0.0184, epoch = 112
+2021-06-08 02:45:45,616 - tensorflow - INFO - New lr = 0.018037499999999998, epoch = 113
+2021-06-08 02:46:36,579 - tensorflow - INFO - New lr = 0.017674999999999996, epoch = 114
+2021-06-08 02:47:27,491 - tensorflow - INFO - New lr = 0.0173125, epoch = 115
+2021-06-08 02:48:18,400 - tensorflow - INFO - New lr = 0.01695, epoch = 116
+2021-06-08 02:49:09,315 - tensorflow - INFO - New lr = 0.016587499999999998, epoch = 117
+2021-06-08 02:50:00,282 - tensorflow - INFO - New lr = 0.016224999999999996, epoch = 118
+2021-06-08 02:50:51,243 - tensorflow - INFO - New lr = 0.0158625, epoch = 119
+2021-06-08 02:51:42,123 - tensorflow - INFO - New lr = 0.0155, epoch = 120
+2021-06-08 02:52:32,966 - tensorflow - INFO - New lr = 0.015137499999999998, epoch = 121
+2021-06-08 02:53:23,988 - tensorflow - INFO - New lr = 0.014774999999999996, epoch = 122
+2021-06-08 02:54:14,758 - tensorflow - INFO - New lr = 0.014412500000000002, epoch = 123
+2021-06-08 02:55:05,521 - tensorflow - INFO - New lr = 0.01405, epoch = 124
+2021-06-08 02:55:56,414 - tensorflow - INFO - New lr = 0.013687499999999998, epoch = 125
+2021-06-08 02:56:47,340 - tensorflow - INFO - New lr = 0.013324999999999997, epoch = 126
+2021-06-08 02:57:38,277 - tensorflow - INFO - New lr = 0.012962500000000002, epoch = 127
+2021-06-08 02:58:29,323 - tensorflow - INFO - New lr = 0.0126, epoch = 128
+2021-06-08 02:59:20,238 - tensorflow - INFO - New lr = 0.012237499999999998, epoch = 129
+2021-06-08 03:00:11,236 - tensorflow - INFO - New lr = 0.011875000000000004, epoch = 130
+2021-06-08 03:01:02,313 - tensorflow - INFO - New lr = 0.011512500000000002, epoch = 131
+2021-06-08 03:01:53,249 - tensorflow - INFO - New lr = 0.01115, epoch = 132
+2021-06-08 03:02:44,211 - tensorflow - INFO - New lr = 0.010787499999999998, epoch = 133
+2021-06-08 03:03:35,236 - tensorflow - INFO - New lr = 0.010425000000000004, epoch = 134
+2021-06-08 03:04:26,382 - tensorflow - INFO - New lr = 0.010062500000000002, epoch = 135
+2021-06-08 03:05:17,249 - tensorflow - INFO - New lr = 0.0097, epoch = 136
+2021-06-08 03:06:09,230 - tensorflow - INFO - New lr = 0.009337499999999999, epoch = 137
+2021-06-08 03:07:00,114 - tensorflow - INFO - New lr = 0.008975000000000004, epoch = 138
+2021-06-08 03:07:50,952 - tensorflow - INFO - New lr = 0.008612500000000002, epoch = 139
+2021-06-08 03:08:41,782 - tensorflow - INFO - New lr = 0.00825, epoch = 140
+2021-06-08 03:09:32,714 - tensorflow - INFO - New lr = 0.007887499999999999, epoch = 141
+2021-06-08 03:10:23,807 - tensorflow - INFO - New lr = 0.007525000000000004, epoch = 142
+2021-06-08 03:11:14,882 - tensorflow - INFO - New lr = 0.007162500000000002, epoch = 143
+2021-06-08 03:12:05,970 - tensorflow - INFO - New lr = 0.0068000000000000005, epoch = 144
+2021-06-08 03:12:57,020 - tensorflow - INFO - New lr = 0.006437500000000006, epoch = 145
+2021-06-08 03:13:47,967 - tensorflow - INFO - New lr = 0.006075000000000004, epoch = 146
+2021-06-08 03:14:38,872 - tensorflow - INFO - New lr = 0.005712500000000002, epoch = 147
+2021-06-08 03:15:29,811 - tensorflow - INFO - New lr = 0.005350000000000001, epoch = 148
+2021-06-08 03:16:20,679 - tensorflow - INFO - New lr = 0.004987500000000006, epoch = 149
+2021-06-08 03:17:11,561 - tensorflow - INFO - New lr = 0.004625000000000004, epoch = 150
+2021-06-08 03:18:02,501 - tensorflow - INFO - New lr = 0.004262500000000002, epoch = 151
+2021-06-08 03:18:53,458 - tensorflow - INFO - New lr = 0.0039000000000000007, epoch = 152
+2021-06-08 03:19:44,324 - tensorflow - INFO - New lr = 0.003537500000000006, epoch = 153
+2021-06-08 03:20:35,127 - tensorflow - INFO - New lr = 0.003175000000000004, epoch = 154
+2021-06-08 03:21:26,160 - tensorflow - INFO - New lr = 0.0028125000000000025, epoch = 155
+2021-06-08 03:22:17,185 - tensorflow - INFO - New lr = 0.002450000000000001, epoch = 156
+2021-06-08 03:23:08,123 - tensorflow - INFO - New lr = 0.002087500000000006, epoch = 157
+2021-06-08 03:23:59,104 - tensorflow - INFO - New lr = 0.0017250000000000043, epoch = 158
+2021-06-08 03:24:49,970 - tensorflow - INFO - New lr = 0.0013625000000000026, epoch = 159
+2021-06-08 03:25:40,861 - tensorflow - INFO - New lr = 0.0010000000000000009, epoch = 160
+2021-06-08 03:26:31,865 - tensorflow - INFO - New lr = 0.0009752499999999996, epoch = 161
+2021-06-08 03:27:22,887 - tensorflow - INFO - New lr = 0.0009505, epoch = 162
+2021-06-08 03:28:13,867 - tensorflow - INFO - New lr = 0.0009257500000000004, epoch = 163
+2021-06-08 03:29:04,804 - tensorflow - INFO - New lr = 0.0009009999999999999, epoch = 164
+2021-06-08 03:29:55,891 - tensorflow - INFO - New lr = 0.0008762500000000003, epoch = 165
+2021-06-08 03:30:46,946 - tensorflow - INFO - New lr = 0.0008514999999999998, epoch = 166
+2021-06-08 03:31:38,054 - tensorflow - INFO - New lr = 0.0008267500000000002, epoch = 167
+2021-06-08 03:32:29,108 - tensorflow - INFO - New lr = 0.0008019999999999998, epoch = 168
+2021-06-08 03:33:20,023 - tensorflow - INFO - New lr = 0.0007772500000000002, epoch = 169
+2021-06-08 03:34:10,997 - tensorflow - INFO - New lr = 0.0007524999999999997, epoch = 170
+2021-06-08 03:35:01,946 - tensorflow - INFO - New lr = 0.0007277500000000001, epoch = 171
+2021-06-08 03:35:53,043 - tensorflow - INFO - New lr = 0.0007029999999999996, epoch = 172
+2021-06-08 03:36:44,114 - tensorflow - INFO - New lr = 0.00067825, epoch = 173
+2021-06-08 03:37:35,047 - tensorflow - INFO - New lr = 0.0006534999999999996, epoch = 174
+2021-06-08 03:38:25,851 - tensorflow - INFO - New lr = 0.00062875, epoch = 175
+2021-06-08 03:39:16,857 - tensorflow - INFO - New lr = 0.0006040000000000004, epoch = 176
+2021-06-08 03:40:07,789 - tensorflow - INFO - New lr = 0.0005792499999999999, epoch = 177
+2021-06-08 03:40:58,945 - tensorflow - INFO - New lr = 0.0005545000000000003, epoch = 178
+2021-06-08 03:41:50,138 - tensorflow - INFO - New lr = 0.0005297499999999998, epoch = 179
+2021-06-08 03:42:41,255 - tensorflow - INFO - New lr = 0.0005050000000000002, epoch = 180
+2021-06-08 03:43:32,104 - tensorflow - INFO - New lr = 0.0004802499999999998, epoch = 181
+2021-06-08 03:44:23,086 - tensorflow - INFO - New lr = 0.0004555000000000002, epoch = 182
+2021-06-08 03:45:14,167 - tensorflow - INFO - New lr = 0.0004307499999999997, epoch = 183
+2021-06-08 03:46:05,191 - tensorflow - INFO - New lr = 0.0004060000000000001, epoch = 184
+2021-06-08 03:46:56,143 - tensorflow - INFO - New lr = 0.00038124999999999964, epoch = 185
+2021-06-08 03:47:47,217 - tensorflow - INFO - New lr = 0.00035650000000000005, epoch = 186
+2021-06-08 03:48:38,055 - tensorflow - INFO - New lr = 0.00033175000000000045, epoch = 187
+2021-06-08 03:49:29,156 - tensorflow - INFO - New lr = 0.000307, epoch = 188
+2021-06-08 03:50:20,153 - tensorflow - INFO - New lr = 0.0002822500000000004, epoch = 189
+2021-06-08 03:51:10,981 - tensorflow - INFO - New lr = 0.0002574999999999999, epoch = 190
+2021-06-08 03:52:01,994 - tensorflow - INFO - New lr = 0.00023275000000000032, epoch = 191
+2021-06-08 03:52:52,819 - tensorflow - INFO - New lr = 0.00020799999999999985, epoch = 192
+2021-06-08 03:53:43,941 - tensorflow - INFO - New lr = 0.00018325000000000025, epoch = 193
+2021-06-08 03:54:34,994 - tensorflow - INFO - New lr = 0.0001584999999999998, epoch = 194
+2021-06-08 03:55:26,155 - tensorflow - INFO - New lr = 0.0001337500000000002, epoch = 195
+2021-06-08 03:56:17,377 - tensorflow - INFO - New lr = 0.00010899999999999972, epoch = 196
+2021-06-08 03:57:08,497 - tensorflow - INFO - New lr = 8.425000000000012e-05, epoch = 197
+2021-06-08 03:57:59,665 - tensorflow - INFO - New lr = 5.9500000000000525e-05, epoch = 198
+2021-06-08 03:58:50,812 - tensorflow - INFO - New lr = 3.475000000000006e-05, epoch = 199
+2021-06-08 03:59:41,738 - tensorflow - INFO - New lr = 1.000000000000046e-05, epoch = 200
+2021-06-08 17:23:29,884 - tensorflow - INFO - 
+
+Predicted min, max range: (8.666842e-14, 0.9999448)
+
+2021-06-08 17:31:30,661 - tensorflow - WARNING - From /mnt/lun2/s21700/anaconda3/envs/tf-gpu/lib/python3.8/site-packages/tensorflow/python/ops/resource_variable_ops.py:1813: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+2021-06-08 17:31:31,895 - tensorflow - INFO - Assets written to: ./moje_dzienniki/przebieg_2021_06_08-01_09_09/entry_model_1cycle_rate-przebieg_2021_06_08-01_09_09-multiple_emas/assets

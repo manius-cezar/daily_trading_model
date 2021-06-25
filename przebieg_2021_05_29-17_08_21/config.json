@@ -1,0 +1,1 @@
+{"initial_learning_rate": 0.1, "decay_steps": 45, "decay_rate": 0.9, "staircase": true, "cnn_input_shape": [250, 1], "kernel_initializer": "he_normal", "statistical_input_shape": [26, 1], "statistical_dense1_neurons_qty": 26, "batch_size": 7100}
