@@ -1,5 +1,5 @@
 # Overview
-This is the proposition of the NN models solving the problem of finding the best moment in day for making a sell operation during stock speculations. Attached repository is practical part of master thesis, entitled "..." done by Piotr Mania, student of  Polish-Japanese Academy of Information Technology, which was prepared under thesis supervisor **Ph.D. Michał R. Przybyłek** and **MSc Illia Shkroba**.
+This is the proposition of the NN models solving the problem of finding the best moment in day for making a sell operation during stock speculations. Attached repository is practical part of master thesis, entitled "An intelligent algorithm that supports the sale of financial instruments, based on artificial neural networks approach" done by Piotr Mania, student of  Polish-Japanese Academy of Information Technology, which was prepared under thesis supervisor **Ph.D. Michał R. Przybyłek** and **MSc Illia Shkroba**.
 
 # Target
 Solving the problem of finding the best possible moment in time, during stock session, for most profitable selling opportunity, with the use of neural networks.
@@ -12,9 +12,9 @@ Stocks data were collected for Apple company, from DucaScopy portal, which enabl
 Cryptocurrency data were collected for BTC-USD cryptocurrency stock prices.
 
 # Prepared models - naming explanation
- * [`przebieg_2021_05_29-17_08_21`](./przebieg_2021_05_29-17_08_21/) - classification neural network model (trained on Apple stock data), referred in thesis as Classification Model
- * [`przebieg_2021_06_05-13_41_25`](./przebieg_2021_06_05-13_41_25/) - classification neural network model with weights applied (trained on Apple stock data), referred in thesis as Classification Model with Weights
- * [`przebieg_2021_06_08-01_09_09`](./przebieg_2021_06_08-01_09_09/) - classification neural network model (trained on BTCUSD cryptocurrency stock data), referred in thesis as Classification Model for Cryptocurrency
+ * [`trial_2021_05_29-17_08_21`](./trial_2021_05_29-17_08_21/) - classification neural network model (trained on Apple stock data), referred in thesis as Classification Model
+ * [`trial_2021_06_05-13_41_25`](./trial_2021_06_05-13_41_25/) - classification neural network model with weights applied (trained on Apple stock data), referred in thesis as Classification Model with Weights
+ * [`trial_2021_06_08-01_09_09`](./trial_2021_06_08-01_09_09/) - classification neural network model (trained on BTCUSD cryptocurrency stock data), referred in thesis as Classification Model for Cryptocurrency
  * [`optuna_2021_06_08-18_15_34`](./optuna_2021_06_08-18_15_34/) - classification neural network model after performing hyperparameter optimization (trained on Apple stock data), referred in thesis as Classification Model after Optimization
 
 # Prepared notebook quick overview
